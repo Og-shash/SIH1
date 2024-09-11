@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: url('red.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 153, 255, 0.8); 
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  h2 {
+    margin: 20px 0;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #0099FF;
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0099FF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alternative-login p {
+    margin: 20px 0 10px;
+    color: #333;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .social-login button {
+    padding: 10px;
+    width: 22%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .apple-btn { background-color: #000; }
+  .facebook-btn { background-color: #3b5998; }
+  .spotify-btn { background-color: #1DB954; }
+  .google-btn { background-color: #db4437; }
+  
+  .sso-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #666;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
